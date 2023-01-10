@@ -4,36 +4,30 @@
 
 int main()
 {
-	int n, i, j, max, idx;
+	int n, i = 0, max = 0, idx = 0, cnt = 0;
 	int arr[20] = { 0 };
-	int cnt[10] = { 0 };
+	int ar[10] = { 0 };
 
-	while (1) {
+	while (i < 20) {
 		scanf("%d", &n);
-		while (n >= 0 && n <= 9) {
-			for (i = 0; i < 20; i++) {
-				arr[i] = n;
-				if (i == 19) {
-				break;
-				}
-			}
+		if (n >= 0 && n <= 9) {
+			arr[i] = n;
+			i++;
+		}
+	}
+ 
+	for (i = 0; i < 20; i++)
+	{
+		idx = arr[i];
+		ar[idx] += 1;
+
+		if (ar[idx] > cnt) {
+			cnt = ar[idx];
+			max = idx;
 		}
 	}
 
-	idx = 0, max = 0;
-	for (i = 0; i < 10; i++) {
-		for (j = 0; j < 20; j++) {
-			if (arr[i] == i) {
-				cnt[i] += 1;
-			}
-			if (cnt[i] > idx) {
-				idx = cnt[i];
-				max = i;
-			}
-		}
-	}
-
-	printf("가장 많이 입력 받은 수: %d, 횟수: %d\n", max, idx);
+	printf("가장 많이 입력 받은 수: %d, 횟수: %d\n", max, cnt);
 
 	return 0;
 }

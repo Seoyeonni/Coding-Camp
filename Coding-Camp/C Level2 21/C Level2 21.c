@@ -1,48 +1,30 @@
 #define _CRT_SECURE_NO_WARNINGS
 
+// 1 ~ 100
+
 #include <stdio.h>
+#include <stdlib.h>
 
-void mode(int *arr, int n)
+void mode(int arr[], int n)
 {
-	int i, idx, max = 0, cnt = 0;
-	int* a = (int*)malloc(sizeof(int));
-
-	for (i = 0; i < n; i++) {
-		a[i] = 0;
-	}
+	int ar[101] = { 0 };
+	int i, idx = 0, max = 0, cnt = 0;
 
 	// 최빈값 찾기
 	for (i = 0; i < n; i++)
 	{
-		idx = arr[i] + 100; // 110
-		a[idx] += 1;
+		idx = arr[i];
+		ar[idx] += 1;
 
-		if (a[idx] > max)
-			max = a[idx]; // 3
-	}
-
-	// 최빈값이 여러개일 때
-	for (i = 0, idx = 0; i <= 200; i++)
-	{
-		if (a[i] == 0)
-			continue;
-
-		if (a[i] == max)
-		{
-			if (cnt == 0)
-			{
-				idx = i;
-				cnt += 1;
-			}
-			else if (cnt == 1)
-			{
-				idx = i;
-				break;
-			}
+		if (ar[idx] > cnt) {
+			cnt = ar[idx];
+			max = idx;
 		}
 	}
 
-	printf("mode = %d, freq = %d\n", idx - 100, cnt);
+	// 최빈값이 여러개일 때 코드 추가
+
+	printf("mode: %d, freq : %d\n", max, cnt);
 }
 
 int main()
