@@ -1,0 +1,4 @@
+﻿  C Level2 17.c
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 17\C Level2 17.c(19,15): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 17\C Level2 17.c(19,12): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  C Level2 17.vcxproj -> C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\x64\Debug\C Level2 17.exe

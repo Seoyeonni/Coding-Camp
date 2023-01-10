@@ -1,0 +1,6 @@
+﻿  C Level2 14.c
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 14\C Level2 14.c(27,14): warning C4047: '함수': 'int (*)[4]'의 간접 참조 수준이 'int (*)[4][4]'과(와) 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 14\C Level2 14.c(27,12): warning C4024: 'transpose': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 14\C Level2 14.c(27,18): warning C4047: '함수': 'int (*)[4]'의 간접 참조 수준이 'int (*)[4][4]'과(와) 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 14\C Level2 14.c(27,16): warning C4024: 'transpose': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  C Level2 14.vcxproj -> C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\x64\Debug\C Level2 14.exe
