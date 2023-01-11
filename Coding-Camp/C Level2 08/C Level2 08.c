@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define LOW 4
+#define ROW 4
 #define COL 3
 
 void swap_array(int* a, int* b)
@@ -14,22 +14,22 @@ void swap_array(int* a, int* b)
 int main()
 {
 	int i, j;
-	int a[LOW][COL] = { {1, 2, 3},
+	int a[ROW][COL] = { {1, 2, 3},
 						{1, 2, 3},
 						{1, 2, 3},
 						{1, 2, 3} };
-	int b[LOW][COL] = { {4, 5, 6},
+	int b[ROW][COL] = { {4, 5, 6},
 						{4, 5, 6},
 						{4, 5, 6},
 						{4, 5, 6} };
 
-	for (i = 0; i < LOW; i++) {
+	for (i = 0; i < ROW; i++) {
 		for (j = 0; j < COL; j++) {
 			swap_array(&a[i][j], &b[i][j]);
 		}
 	}
 
-	for (i = 0; i < LOW; i++) {
+	for (i = 0; i < ROW; i++) {
 		for (j = 0; j < COL; j++) {
 			printf("%d ", a[i][j]);
 		}
@@ -38,7 +38,7 @@ int main()
 
 	printf("\n");
 
-	for (i = 0; i < LOW; i++) {
+	for (i = 0; i < ROW; i++) {
 		for (j = 0; j < COL; j++) {
 			printf("%d ", b[i][j]);
 		}

@@ -1,0 +1,5 @@
+﻿  C Level2 44.c
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 44\C Level2 44.c(23,8): warning C4477: 'scanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int **'입니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 44\C Level2 44.c(26,18): warning C4047: '함수': 'const char *'의 간접 참조 수준이 'int *[20]'과(와) 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 44\C Level2 44.c(26,14): warning C4024: 'strcmp': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+  C Level2 44.vcxproj -> C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\x64\Debug\C Level2 44.exe

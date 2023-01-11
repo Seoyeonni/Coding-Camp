@@ -1,0 +1,12 @@
+﻿  C Level2 45.c
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(25,17): warning C4098: 'array_equal': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(38,18): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int *[3][3]'과(와) 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(38,14): warning C4024: 'array_equal': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(38,24): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int *[3][3]'과(와) 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(38,20): warning C4024: 'array_equal': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(42,11): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(42,11): warning C4313: 'printf': 서식 문자열의 '%d'이(가) int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(33,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(34,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\C Level2 45\C Level2 45.c(35,1): warning C4047: '초기화 중': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  C Level2 45.vcxproj -> C:\Users\gram\Desktop\Github\Coding-Camp\Coding-Camp\x64\Debug\C Level2 45.exe
