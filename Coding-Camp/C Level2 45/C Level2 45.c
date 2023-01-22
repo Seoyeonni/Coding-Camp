@@ -5,18 +5,14 @@
 #define ROW 3
 #define COL 3
 
-void array_equal(int* arr1, int* arr2) {
+void array_copy(int arr1[ROW][COL], int arr2[ROW][COL]) {
 
 	int i, j;
 	
-	for (i = 0; i < ROW; i++)
+	for (i = 0; i < ROW * COL; i++)
 	{
-		for (j = 0; j < COL; j++)
-		{
-			*arr1++ = *arr2++;
-		}
+		*arr1++ = *arr2++;
 	}
-
 }
 
 int main()
@@ -36,6 +32,6 @@ int main()
 		}
 		printf("\n");
 	}
-	 
+	
 	return 0;
 }
